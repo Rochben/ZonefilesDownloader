@@ -1,8 +1,7 @@
 import requests, os, csv, getpass
 
 # Input variables
-token = getpass.getpass('Paste your token here: ')
-token = token.strip()
+token = getpass.getpass('Paste your token here: ').strip()
 list_type = input('Please select the list type (full, update, fulldata, updatedata): ') or 'full'
 zone_id = input('Please type in a zone ID: ') or '1'
 
